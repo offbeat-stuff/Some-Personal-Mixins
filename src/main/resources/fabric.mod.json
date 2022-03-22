@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "id": "pmixins",
+  "version": "${version}",
+  "name": "Some Server Mixins",
+  "description": "My personal game modifications",
+  "authors": [
+    "Me!"
+  ],
+  "contributors": [],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/pmixins/icon.png",
+  "environment": "*",
+  "entrypoints": {},
+  "mixins": [
+    "pmixins.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": ">=${minecraft_version} <=${supported_minecraft_version}",
+    "java": ">=17"
+  }
+}

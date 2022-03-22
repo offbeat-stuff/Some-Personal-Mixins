@@ -1,0 +1,17 @@
+{
+  "required": true,
+  "package": "net.zenxarch.pmixins",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+    "Mixins$MobMixin",
+    "Mixins$PlayerMixin",
+    "Mixins$ServerPlayerMixin",
+    "Mixins$LivingMixin",
+    "Mixins$PlayerLootMixin"
+  ],
+  "client": [],
+  "server": [],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
